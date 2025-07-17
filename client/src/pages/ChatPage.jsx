@@ -440,7 +440,7 @@ const Sidebar = () => {
 
   const getSidebarTitle = () => {
     if (currentView === "main") {
-      return "v0 Chat";
+      return "ESi Hub";
     } else if (currentView === "children" && selectedCourse) {
       return selectedCourse.title;
     } else if (currentView === "semesters" && selectedCourse) {
@@ -464,7 +464,7 @@ const Sidebar = () => {
       }
       return `${parentTitle} - ${selectedSubject.title}`;
     }
-    return "v0 Chat";
+    return "Esi Hub";
   };
 
   const getSubjectsForSelectedSemester = () => {
